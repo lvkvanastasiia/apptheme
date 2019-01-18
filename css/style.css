@@ -1,0 +1,254 @@
+body {
+  font-family: "Open-sans" sans-serif;
+  font-size: 17px;
+  line-height: 1.5rem;
+  margin: 0;
+  padding: 0; }
+
+img {
+  width: 100%; }
+
+.container {
+  margin: auto; }
+
+/*COMMON CLASSES*/
+.primary-text {
+  color: #108d78; }
+
+.primary-background {
+  background: #108d78; }
+
+/*HEADER*/
+#header {
+  border-bottom: 1px solid #108d78; }
+
+/*NAVBAR*/
+#navbar {
+  text-transform: uppercase; }
+
+#navbar li {
+  display: inline;
+  padding-right: 20px;
+  list-style: none; }
+
+#navbar a {
+  text-decoration: none;
+  color: #888; }
+
+#navbar li.current a, #navbar a:hover {
+  color: #108d78;
+  border-bottom: 3px solid #108d78;
+  padding-bottom: 3px; }
+
+/*SHOWCASE*/
+#showcase {
+  background: url(../img/showcase.jpg) no-repeat center center;
+  background-size: cover;
+  border-bottom: 1px solid #108d78;
+  margin-bottom: 2rem; }
+
+#showcase .row {
+  height: 550px; }
+
+#showcase h1 {
+  font-size: 3rem;
+  margin: 0;
+  padding-bottom: 2rem; }
+
+#showcase p {
+  color: #ccc;
+  margin: 0; }
+
+#showcase .showcase-content {
+  background: #333;
+  color: #fff;
+  border-radius: 7rem;
+  padding: 2.5rem;
+  opacity: .9; }
+
+/*FEATURES*/
+#features h2 {
+  font-size: 2rem;
+  margin: 0;
+  margin-bottom: 2rem; }
+
+#features p {
+  color: #666666;
+  margin: 0;
+  padding-bottom: .5rem; }
+
+#features .fas {
+  font-size: 4rem;
+  color: #108d78; }
+
+/*INFO*/
+#info {
+  background: #333 url(../img/info-bg.jpg) no-repeat;
+  color: #fff; }
+
+#info h2 {
+  font-size: 2rem;
+  margin: 0;
+  padding-bottom: 0.7rem; }
+
+#info ul {
+  list-style: none;
+  padding: 0; }
+
+#info li {
+  line-height: 2.5rem;
+  font-size: 1.3rem; }
+
+/*COMPANY*/
+#company {
+  background: #333;
+  color: white;
+  padding: .7rem 0; }
+
+#company h4 {
+  text-transform: uppercase;
+  margin-bottom: 0; }
+
+#company ul {
+  padding: 0;
+  list-style: none;
+  line-height: 2rem; }
+
+#company input[type="text"] {
+  padding: .56rem; }
+
+#company button {
+  background: #202020;
+  color: #fff;
+  padding: .7rem;
+  border: 0; }
+
+/*FOOTER*/
+#footer {
+  background: #108d78;
+  color: #fff; }
+
+/*PAGE*/
+#page {
+  margin-bottom: 2.3rem; }
+
+/*SERVICES*/
+.services ul li {
+  list-style: none;
+  padding: .7rem; }
+
+.services ul li:nth-child(odd) {
+  background: #333;
+  color: #fff; }
+
+.services ul li:nth-child(even) {
+  background: #108d78;
+  color: #fff; }
+
+/*CONTACTS*/
+.contacts form {
+  background: #333;
+  color: #fff;
+  padding: 1.2rem; }
+
+.contacts form input[type="text"] {
+  width: 50%;
+  height: 2rem;
+  margin-bottom: .7rem; }
+
+.contacts form textarea {
+  width: 50%;
+  height: 7rem; }
+
+.contacts form button {
+  width: 50%;
+  padding: .7rem 0;
+  border: 0;
+  background: #202020;
+  color: #fff; }
+
+.contacts form label {
+  text-transform: uppercase; }
+
+@media (max-width: 1024px) {
+  #company button {
+    padding: 0.25rem; }
+
+  #company input[type="text"] {
+    padding: 0.1rem;
+    width: 7rem; } }
+@media (max-width: 768px) {
+  #header {
+    font-size: 12px; }
+
+  #showcase h1 {
+    font-size: 2rem;
+    margin: 0;
+    padding-bottom: 2rem; }
+
+  #company {
+    font-size: 10px; }
+
+  #company h4 {
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-size: 14px; }
+
+  #company button {
+    padding: 0.25rem; }
+
+  #company input[type="text"] {
+    padding: 0.1rem; }
+
+  img {
+    width: 50%; }
+
+  #info h2 {
+    font-size: 1rem; }
+
+  #info ul li {
+    font-size: 1rem; }
+
+  #features {
+    font-size: 12px; }
+
+  #features h2 {
+    font-size: 1rem;
+    margin: 0;
+    margin-bottom: 1rem; }
+
+  #features h4 {
+    font-size: 10px; }
+
+  #features .fas {
+    font-size: 2rem; }
+
+  #features p {
+    padding-bottom: .5rem; }
+
+  #footer {
+    font-size: 10px; } }
+@media (max-width: 425px) {
+  #showcase .showcase-content {
+    border-radius: 3rem;
+    padding: 1.5rem .5rem; } }
+@media (max-width: 414px) {
+  #features .fas {
+    font-size: 0.8rem; } }
+@media (max-width: 375px) {
+  #features {
+    font-size: 7px; }
+
+  #features .fas {
+    font-size: 0.7rem; } }
+@media (max-width: 320px) {
+  #features p {
+    font-size: 7px; }
+
+  #features {
+    font-size: 7px; }
+
+  #features .fas {
+    font-size: 0.6rem; } }
+
+/*# sourceMappingURL=style.css.map */
